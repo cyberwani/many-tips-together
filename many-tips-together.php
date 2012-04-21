@@ -473,7 +473,7 @@ if (!function_exists("ManyTips_ap")) {
 			add_options_page('Many Tips Together', 'Many Tips Together', 9,
 basename(__FILE__), array(&$dl_pluginSeries, 'printAdminPage'));
 		}
-		register_activation_hook( __FILE__, array('ManyTips', 'install') );
+		register_activation_hook( basename(__FILE__), array(&$dl_pluginSeries, 'install') );
 	}
 }
 
