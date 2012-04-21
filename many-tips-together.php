@@ -68,7 +68,12 @@ if (!class_exists("ManyTips")) {
 		function init() { 
 			$this->getAdminOptions();			
 		}
-		
+		function install() {
+			global $firephp;
+			$firephp->log('INSTALL');
+		}
+
+
 		function printAdminPage() { 
 			require_once ('mtt-admin-page.php');
 		}
@@ -465,9 +470,9 @@ if (!function_exists("ManyTips_ap")) {
 		}
 		if (function_exists('add_options_page')) { 
 			add_options_page('Many Tips Together', 'Many Tips Together', 9,
-basename(__FILE__), array(&$dl_pluginSeries, 'printAdminPage')); 
-			
+basename(__FILE__), array(&$dl_pluginSeries, 'printAdminPage'));
 		}
+		register_activation_hook( __FILE__, array('ManyTips', 'install') );
 	}
 }
 
