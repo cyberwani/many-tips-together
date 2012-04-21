@@ -33,7 +33,7 @@ if (is_admin()) { // note the use of is_admin() to double check that this is hap
         'tested' => '3.3', // which version of WordPress is your plugin tested up to?
         'sslverify' => true // wether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
     );
-    new wp_github_updater($config);
+    new WPGitHubUpdater($config);
 }
 if (!class_exists("ManyTips")) {
 	class ManyTips {
