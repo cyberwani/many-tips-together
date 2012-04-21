@@ -66,7 +66,11 @@ if (!class_exists("ManyTips")) {
 		
 		// ACTIVATION OF PLUGIN
 		function init() { 
-			$this->getAdminOptions();			
+			$this->getAdminOptions();
+			$this->install();
+		}
+		function install() {
+			update_option('ManyTipsTogetherUPDATE', 'done!!');
 		}
 
 
