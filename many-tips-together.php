@@ -12,14 +12,14 @@ Domain Path: /languages
 Description: This plugin compiles many administrative customization tips in one simple interface.
 Author: Rodolfo Buaiz
 Author URI: http://rodbuaiz.com/
-Version: 0.9.4
-Stable Tag: 0.9.4
+Version: 0.9.6
+Stable Tag: 0.9.6
 License: GPL
 */
 
 define('MTT_LOGO_HEIGHT', 300);
 define('MTT_LOGIN_BACKGROUND', 'repeat');
-define('MTT_VERSION', '0.9.4');
+define('MTT_VERSION', '0.9.6');
 include_once('updater.php');
 if (is_admin()) { // note the use of is_admin() to double check that this is happening in the admin
     $config = array(
