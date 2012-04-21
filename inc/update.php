@@ -108,7 +108,7 @@ foreach( $devOptions as $key => $value ) {
 		unset( $devOptions[$key] );
 	}
 	if( $key == 'loginpage_color') {
-		$devOptions['loginpage_body_color'] = $value;
+		$devOptions['loginpage_body_color'] = '#'.$value;
 		unset( $devOptions[$key] );
 	}
 	if( $key == 'loginpage_height') {
