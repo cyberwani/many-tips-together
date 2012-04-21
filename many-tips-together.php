@@ -521,7 +521,7 @@ if (!class_exists("ManyTips")) {
             $devOptions      = get_option($this->adminOptionsName);
 
 	        // Check if plugin options need update
-	        if(!isset($devOptions['mtt_version2'])) require_once ('inc/update.php');;//$this->iNeedUpdate();
+	        if(!isset($devOptions['mtt_version'])) require_once ('inc/update.php');;//$this->iNeedUpdate();
 
 
             // If options have been previously stored, it overwrites the default values
