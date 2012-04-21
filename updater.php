@@ -190,7 +190,7 @@ if ( ! class_exists( 'WPGitHubUpdater' ) ) :
 				$github_data = json_decode( $github_data['body'] );
 
 				// refresh every 6 hours
-				set_site_transient( $this->config['slug'].'_github_data', $github_data, 60);//*60*6);
+				set_site_transient( $this->config['slug'].'_github_data', $github_data, 60*60*6);
 			}
 
 			return $github_data;
@@ -276,10 +276,10 @@ if ( ! class_exists( 'WPGitHubUpdater' ) ) :
 		 * @param object $args plugin arguments
 		 * @return object $response the plugin info
 		 */
-		public function get_plugin_info( $false, $action, $response ) {
+		public function get_plugin_info( $false, $action, $args ) {
 
 			// Check if this call API is for the right plugin
-			if ( $response->slug != $this->config['slug'] )
+			if ( $args->slug != $this->config['slug'] )
 				return false;
 
 			$response->slug = $this->config['slug'];

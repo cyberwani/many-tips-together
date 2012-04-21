@@ -1,28 +1,35 @@
 === Many Tips Together ===
 Tags: customize admin, web tips, maintenance mode, profile, login, logout 
 Requires at least: 3.1
-Tested up to: 3.2.1
-Stable tag: 0.9.8
+Tested up to: 3.4-beta2
+Stable tag: 1.0
 Contributors: brasofilo
 
-This plugin compiles many administrative customization tips in one simple interface.
+Do you like to adjust and style the backend as much as the frontend?
+So, we are together!
 
 == Description ==
-There are lots of little administrative customization tips that are spread in many web tutorials, and some of them (not most, neither all) are included in other plugins.
+This plugin is a compilation of lots of tips for enhancing, styling and reducing WordPress backend. Some are present in some plugins, some are not. Usually we put them in our functions.php, but if you handle many WordPress installations then better plugged then themed.
 
-All the hooks are simple and could be inserted in the theme's functions.php, but if you're always swapping themes or managing lot's of sites, well, this is what a plugin is for...
+The interface, although loaded, is pretty straigh forward: choose the section and select your customizations. 
+The tips came from a variety of sources and are documented, whenever due, in the help sections.
+
+> Upgrading to version 1.0 - *Unfortunately your previous settings will be lost, please take note of them before updating the plugin. This won't happen again, sorry for the inconvenience*.
 
 = Features =
-* Customize Login Page
-* Maintenance Mode with custom html/css/title/description
-* Modify and hide Profile information
-* Redirect on Logout
-* Block update notices (WP/Plugins)
-* Block WP 'phone home'
-* Set Revisions number
-* Set Autosave interval
-* Disable Admin Bar globally
-* Disable SmartQuotes, CapitalP, AutoP, SelfPing, WP Version
+* Customize Login Screen
+* Admin Bar - remove and add items
+* Dashboard - remove and add widgets
+* Admin Menus - remove menu items
+* Posts - rename the word "Posts" in (almost) all WordPress interface
+* Posts and Pages listings - customize rows and columns
+* Widgets - remove default widgets
+* Customize User Profile page
+* Maintenance Mode - with minimum Role allowed and possibility to block only the backend
+* some other goodies in Post/Page editing, Media Library, Site E-mail, WordPress behavior, Header and Footer, 3 handy Shortcodes 
+
+= Screencast =
+[youtube htpp]
 
 = Localizations =
 Portuguese, Spanish
@@ -30,26 +37,30 @@ Portuguese, Spanish
 == Installation ==
 1. Upload `many-tips-together.zip` to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the *Plugins* menu in WordPress.
-3. Go to your *Settings* control panel and configure the plugin.
+3. Go to *Settings -> Many Tips Together* and configure the plugin.
 
 = Uninstall =
 The 'reset' button doesn't delete the database entry, but if you delete the plugin, the entry will be deleted (via unsinstall.php)
 
 == Frequently Asked Questions ==
-= Do I need this plugin? =
-No. You can just copy/paste the functions_basic.php into your functions.php, or do a basic plugin without interface using those functions and everything will work.
+= Doubts, bugs, suggestions =
+Don't hesitate in posting a new topic here in [WordPress support forum](http://wordpress.org/tags/many-tips-together?forum_id=10).
 
-= So, what is it for? =
-If you swap themes constantly or manage lots of WP sites you'll probably be thankful for being able to adjust all these small and hidden settings at once, in a fast move.
-
-= I can't find the functions_basic.php file =
-
-Sorry, it's not ready yet. It will be on final version. 
 
 == Screenshots ==
 1. Viewing all options, with some demo settings, and help texts not visible
 
 == Changelog ==
+**Version 1.0**
+* Remake of the interface, better organization, revised code
+* Improvement: select the roles capable of viewing the site when in Maintenance Mode.
+* Improvement: maintenance mode now blocks admin area for selected roles
+* Improvement: more options to customize the Profile page
+* New feature: Admin Bar customization
+* New feature: Post/Page listing options
+* New feature: Rename the word "Posts" to whatever you want
+* New feature: Shortcodes : YouTube full window popup - SoundCloud official shortcode - Google Docs document viewer  
+
 **Version 0.9.4**
 
 * Bug fix: finally fixed html escaping... sorry for the mistake in 0.9.3
@@ -65,7 +76,6 @@ Sorry, it's not ready yet. It will be on final version.
 * Custom Dashboard's now works, it was lacking html character escaping
 * Help texts completed
 * Portuguese and Spanish localizations are now complete
-* To do: rewrite the code more elegantly and MultiSite suppport
 
 **Version 0.9.2**
 

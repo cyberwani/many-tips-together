@@ -1,6 +1,6 @@
-many-tips-together
-==================
+many-tips-new
+=============
 
-Plugin test bed, this is the official one: http://wordpress.org/extend/plugins/many-tips-together
+Full version - test bed
 
-~Current Version:0.9.8~
+~Current Version:1.0~

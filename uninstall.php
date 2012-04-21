@@ -4,7 +4,7 @@ Part of Plugin: Many Tips Together
 */
 
 // Make sure that we are uninstalling
-if ( !defined('WP_UNINSTALL_PLUGIN') ) {
+if (!defined('WP_UNINSTALL_PLUGIN')) {
     exit();
 }
 

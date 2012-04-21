@@ -1,38 +1,283 @@
-input.checkbox { margin-right:8px; }
-input[type="checkbox"], input[type="text"] {
-	margin-right:10px;
+#wpbody-content .wrap {
+    width: 70%;
 }
-li {margin:5px 0;}
+
+input.checkbox {
+    margin-right: 8px;
+}
+
+input[type="checkbox"], input[type="text"] {
+    margin-right: 10px;
+}
+
+li {
+    margin: 0;
+}
 
 .revisions-number {
-	padding:5px;
-	font:bold 1.3em Arial, Helvetica, sans-serif;
-	color:#2155FF;
+    padding: 5px;
+    font: bold 1.3em Arial, Helvetica, sans-serif;
+    color: #2155FF;
 }
+
 .red-revisions {
-	color:#B23300;	
+    color: #B23300;
 }
+
 /*.update-button {margin:-15px 0 0 -10px;}*/
 
 .postbox-container .meta-box-sortables {
-min-height: 0px;
+    min-height: 0;
 }
 
+.postbox li {
+    border-bottom: solid #EBEBEB thin;
+    padding: 3px 0;
+}
 
-textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
+/*textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
 	background-color: #FFFEF4;
-/*	margin-left:10px; */
-}
-.update-last {
-padding: 0 0 2em 0;
+	margin-left:10px; 
+}*/
+
+#mtt-all-options-table {
+    display: none;
 }
 
-.desc {color:#787878; padding:0 0 10px 27px;border-bottom: solid #EBEBEB thin; }
+.update-last {
+    padding: 0 0 1em 0;
+}
+
+.desc {
+    color: #787878;
+    margin: 4px 0 15px 0;
+    width: 40%;
+}
+
+.mtt-checkboxes {
+    padding: 5px 0 !important
+}
+
+#poststuff .inside {
+    margin: -6px 0;
+}
+
+.textinput {
+    vertical-align: top;
+    margin-top: 5px;
+}
 
 label.textinput, label.select {
-	width: 300px;
-	float:left;
+    width: 40%;
+    display: inline-block;
+    margin-right: 13px;
+    clear: both;
 }
+
 label {
-	/*cursor:default;*/
+    /*cursor:default;*/
+}
+
+.submit {
+    padding: .3em 0;
+}
+
+.mtt-color-picker {
+    margin-left: 40%;
+}
+
+.mtt-color-box {
+    width: 70px !important;
+}
+
+.mtt-update {
+    float: right;
+    margin-top: -13px;
+}
+
+.mtt-hndle-red {
+    background-image: -ms-linear-gradient(top, #F9A3BB, #ECE0DE) !important;
+    background-image: -moz-linear-gradient(top, #F9A3BB, #ECE0DE) !important;
+    background-image: -o-linear-gradient(top, #F9A3BB, #ECE0DE) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F9A3BB), to(#ECE0DE)) !important;
+    background-image: -webkit-linear-gradient(top, #F9A3BB, #ECE0DE) !important;
+    background-image: linear-gradient(top, #F9A3BB, #ECE0DE) !important;
+}
+
+.mtt-hndle-blue {
+    background-image: -ms-linear-gradient(top, #a0c5f7, #dce6eb) !important;
+    background-image: -moz-linear-gradient(top, #a0c5f7, #dce6eb) !important;
+    background-image: -o-linear-gradient(top, #a0c5f7, #dce6eb) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a0c5f7), to(#dce6eb)) !important;
+    background-image: -webkit-linear-gradient(top, #a0c5f7, #dce6eb) !important;
+    background-image: linear-gradient(top, #a0c5f7, #dce6eb) !important;
+}
+
+.mtt-hndle-yellow {
+    background-image: -ms-linear-gradient(top, #F9F0A1, #ECE3D8) !important;
+    background-image: -moz-linear-gradient(top, #F9F0A1, #ECE3D8) !important;
+    background-image: -o-linear-gradient(top, #F9F0A1, #ECE3D8) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E6F0F9), to(#B1D4EC)) !important;
+    background-image: -webkit-linear-gradient(top, #F9F0A1, #ECE3D8) !important;
+    background-image: linear-gradient(top, #F9F0A1, #ECE3D8) !important;
+}
+
+.mtt-advanced {
+    margin-top: -14px !important;
+}
+#bsf-link {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    cursor: progress;
+}
+
+#bsf-link:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+
+    transform-origin: 100% 0%;
+    -ms-transform-origin: 100% 0%; /* IE 9 */
+    -webkit-transform-origin: 100% 0%; /* Safari and Chrome */
+    -moz-transform-origin: 100% 0%; /* Firefox */
+    -o-transform-origin: 100% 0%; /* Opera */
+    cursor: progress;
+}
+
+/* exception in Dashboard */
+.inside-pdash1 {
+    border-top: solid #EBEBEB thin;;
+}
+
+.mtt-img {
+    max-width: 100px;
+    height: auto;
+}
+
+.mtt-img-span {
+    margin-left: 42%;
+}
+
+/*--------------------------------------------------------------------------------------------
+*
+*	WP Box
+*
+ozh
+width: 25%;margin-top: 9px;right: 2%;
+*--------------------------------------------------------------------------------------------*/
+#poststuff {
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 1em;
+    margin: .6em 0 .5em;
+    background-color: #eee;
+    padding: 5px;
+}
+
+.mtt-box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    float: right;
+    width: 24%;
+    margin-top: 9px;
+    position: fixed;
+    right: 1%;
+}
+.mtt-box2 {
+    margin-top: 260px;
+
+}
+
+.mtt-box .inner {
+    padding: 10px;
+}
+
+.mtt-box p.desc {
+    margin: 1px 0 -9px 24px;
+    width: 100% !important;
+}
+
+.mtt-box .footer {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-top: 1px solid #E1E1E1;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+
+.mtt-box .footer ul.left {
+    float: left;
+}
+
+.mtt-box .footer ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.mtt-box .footer ul.left li {
+    margin-left: 5px;
+}
+
+.mtt-box .footer ul.right {
+    float: right;
+    margin-right: 3px;
+}
+
+.mtt-box h2 {
+    margin: .25em 0 .75em;
+    padding: 0;
+}
+
+.mtt-box h3 {
+    margin: 1.5em 0 0;
+}
+
+.mtt-box p {
+    margin-top: 0.5em;
+}
+
+.mtt-box-half.left {
+    width: 50%;
+    float: left;
+}
+
+.mtt-box-half.right {
+    width: 50%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-left: 1px solid #E1E1E1;
+}
+
+.mtt-box-half.right .inner {
+
+}
+
+.mtt-box select {
+    width: 99%;
+    height: auto !important;
+}
+
+h3.h2 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+    font-size: 23px;
+    line-height: 29px;
+    padding: 9px 15px 4px 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+h3.h2 span {
+    color: #ccc;
+}
+
+#alert_bar {
+    background: #FFFCC4;
 }
