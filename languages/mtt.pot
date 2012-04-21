@@ -1,0 +1,446 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Many Tips Together\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-26 02:25+0100\n"
+"PO-Revision-Date: 2011-11-26 02:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: brasofilo <brasofilo@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: /Users/rod/_TRAMPOS/_SVN/WordPress/many-tips-together/trunk\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: many-tips-together.php:215
+msgid "Settings"
+msgstr ""
+
+#: many-tips-together.php:230
+msgid " | Maintenance Mode"
+msgstr ""
+
+#: mtt-admin-page.php:8
+msgid "Bad formed URL"
+msgstr ""
+
+#: mtt-admin-page.php:9
+msgid "Invalid value"
+msgstr ""
+
+#: mtt-admin-page.php:10
+msgid "Uncheck the previous option, so this one will work."
+msgstr ""
+
+#: mtt-admin-page.php:11
+msgid "Check the errors below..."
+msgstr ""
+
+#: mtt-admin-page.php:33
+msgid "Revisions deleted from database."
+msgstr ""
+
+#: mtt-admin-page.php:41
+msgid "Settings reseted."
+msgstr ""
+
+#: mtt-admin-page.php:204
+msgid "Settings updated."
+msgstr ""
+
+#: mtt-admin-page.php:222
+#: mtt-admin-page.php:490
+msgid "Update settings"
+msgstr ""
+
+#: mtt-admin-page.php:227
+msgid "Plugin Configuration"
+msgstr ""
+
+#: mtt-admin-page.php:231
+msgid "Hide plugin help"
+msgstr ""
+
+#: mtt-admin-page.php:234
+msgid "Start with all tabs closed"
+msgstr ""
+
+#: mtt-admin-page.php:243
+msgid "Maintenance Mode"
+msgstr ""
+
+#: mtt-admin-page.php:247
+msgid "Enable maintenance mode"
+msgstr ""
+
+#: mtt-admin-page.php:247
+msgid "Block the site to visitors and not-admins. To display your own custom page, follow the instruction in the file <em><strong>many-tips-together/maintenance/index.php</strong></em>."
+msgstr ""
+
+#: mtt-admin-page.php:250
+msgid "Browser Title &lt;title&gt;"
+msgstr ""
+
+#: mtt-admin-page.php:253
+msgid "Text for the first line"
+msgstr ""
+
+#: mtt-admin-page.php:256
+msgid "Link for the second line, without http://"
+msgstr ""
+
+#: mtt-admin-page.php:259
+msgid "Minimum user level to see site content."
+msgstr ""
+
+#: mtt-admin-page.php:261
+msgid "Administrator"
+msgstr ""
+
+#: mtt-admin-page.php:262
+msgid "Editor"
+msgstr ""
+
+#: mtt-admin-page.php:263
+msgid "Author"
+msgstr ""
+
+#: mtt-admin-page.php:264
+msgid "Contributor"
+msgstr ""
+
+#: mtt-admin-page.php:265
+msgid "Subscriber"
+msgstr ""
+
+#: mtt-admin-page.php:276
+msgid "WordPress Behavior"
+msgstr ""
+
+#: mtt-admin-page.php:280
+msgid "Block WordPress upgrade warnings"
+msgstr ""
+
+#: mtt-admin-page.php:280
+msgid "Yes, I know that, but don't bug me, please..."
+msgstr ""
+
+#: mtt-admin-page.php:283
+msgid "Block plugins upgrade warnings"
+msgstr ""
+
+#: mtt-admin-page.php:283
+msgid "Yeah, I know..."
+msgstr ""
+
+#: mtt-admin-page.php:286
+msgid "Hide blog URL from WordPress \"phone home\""
+msgstr ""
+
+#: mtt-admin-page.php:286
+msgid "Filter out the blog URL from the data that is sent to wordpress.org - Check this <a href=\"http://lynnepope.net/wordpress-privacy\">article</a> to learn more."
+msgstr ""
+
+#: mtt-admin-page.php:289
+msgid "Disable SmartQuotes"
+msgstr ""
+
+#: mtt-admin-page.php:289
+msgid "Prevent the conversion of straight quotes into directional quotes."
+msgstr ""
+
+#: mtt-admin-page.php:292
+msgid "Disable Capital P"
+msgstr ""
+
+#: mtt-admin-page.php:292
+msgid "Prevents WordPress of auto-correcting mispellings of its name. Check this <a href=\"http://justintadlock.com/archives/2010/07/08/lowercase-p-dangit\">article</a>"
+msgstr ""
+
+#: mtt-admin-page.php:295
+msgid "Disable Auto P"
+msgstr ""
+
+#: mtt-admin-page.php:295
+msgid "Prevents WordPress from inserting automatic &lt;p&gt; tags in your code."
+msgstr ""
+
+#: mtt-admin-page.php:298
+msgid "Disable Self Ping"
+msgstr ""
+
+#: mtt-admin-page.php:298
+msgid "Prevents WordPress from sending pings to your own site."
+msgstr ""
+
+#: mtt-admin-page.php:301
+msgid "Completely eliminate WordPress version in &lt;head&gt;"
+msgstr ""
+
+#: mtt-admin-page.php:304
+msgid "Eliminate only the WordPress version number in &lt;head&gt;"
+msgstr ""
+
+#: mtt-admin-page.php:313
+msgid "Remove from Dashboard"
+msgstr ""
+
+#: mtt-admin-page.php:317
+msgid "QuickPress"
+msgstr ""
+
+#: mtt-admin-page.php:320
+msgid "Incoming Links"
+msgstr ""
+
+#: mtt-admin-page.php:323
+msgid "Right now"
+msgstr ""
+
+#: mtt-admin-page.php:326
+msgid "Plugins"
+msgstr ""
+
+#: mtt-admin-page.php:329
+msgid "Recent Drafts"
+msgstr ""
+
+#: mtt-admin-page.php:332
+msgid "Recent Comments"
+msgstr ""
+
+#: mtt-admin-page.php:335
+msgid "WordPress_Blog : *in the Dashboard, you can configure this one, and change its title and feed address*"
+msgstr ""
+
+#: mtt-admin-page.php:338
+msgid "Other WordPress News : *this one too!*"
+msgstr ""
+
+#: mtt-admin-page.php:347
+msgid "Add Dashboards"
+msgstr ""
+
+#: mtt-admin-page.php:352
+msgid "Enable Personal Dashboard 1"
+msgstr ""
+
+#: mtt-admin-page.php:352
+msgid "Use this dashboards to put your own messages or iframes or embeds."
+msgstr ""
+
+#: mtt-admin-page.php:355
+#: mtt-admin-page.php:368
+#: mtt-admin-page.php:381
+msgid "Title"
+msgstr ""
+
+#: mtt-admin-page.php:358
+#: mtt-admin-page.php:371
+#: mtt-admin-page.php:384
+msgid "Content"
+msgstr ""
+
+#: mtt-admin-page.php:365
+msgid "Enable Personal Dashboard 2"
+msgstr ""
+
+#: mtt-admin-page.php:378
+msgid "Enable Personal Dashboard 3"
+msgstr ""
+
+#: mtt-admin-page.php:394
+msgid "Revisions and autosave"
+msgstr ""
+
+#: mtt-admin-page.php:398
+msgid "Number of revisions to maintain for each post"
+msgstr ""
+
+#: mtt-admin-page.php:398
+msgid "-1 (unlimited) | 0 (none) | 1 or more (custom)"
+msgstr ""
+
+#: mtt-admin-page.php:403
+msgid "Auto-save interval <em>in minutes</em>"
+msgstr ""
+
+#: mtt-admin-page.php:412
+msgid "Log In"
+msgstr ""
+
+#: mtt-admin-page.php:416
+msgid "Title for logo"
+msgstr ""
+
+#: mtt-admin-page.php:416
+msgid "Appears as tooltip. The default text is: \"Powered by WordPress\")"
+msgstr ""
+
+#: mtt-admin-page.php:419
+msgid "Custom logo image (full URL)"
+msgstr ""
+
+#: mtt-admin-page.php:419
+#, php-format
+msgid "if you want to try it right now, copy the url bellow and define the logo height to 160<br /><code>%s</code><br /><br /><em>There are some issues changing the width, so stick to 367px...</em>"
+msgstr ""
+
+#: mtt-admin-page.php:422
+msgid "Custom logo height"
+msgstr ""
+
+#: mtt-admin-page.php:422
+#, php-format
+msgid "default: 67 - maximum value allowed:  %s"
+msgstr ""
+
+#: mtt-admin-page.php:425
+msgid "Custom logo link (full URL)"
+msgstr ""
+
+#: mtt-admin-page.php:425
+msgid "Link for the logo, default: wordpress.org"
+msgstr ""
+
+#: mtt-admin-page.php:428
+msgid "Custom background image (full URL)"
+msgstr ""
+
+#: mtt-admin-page.php:428
+#, php-format
+msgid "if you want to try it right now, copy the url bellow<br /><code>%s</code><br /><br /><em>The behavior is \"repeat\", but you can change that, at the begining of the plugin code</em>"
+msgstr ""
+
+#: mtt-admin-page.php:431
+msgid "Custom background color"
+msgstr ""
+
+#: mtt-admin-page.php:431
+msgid "Select a Color"
+msgstr ""
+
+#: mtt-admin-page.php:431
+msgid "Reset"
+msgstr ""
+
+#: mtt-admin-page.php:434
+#, php-format
+msgid "Hide link \"Back to %s\""
+msgstr ""
+
+#: mtt-admin-page.php:434
+msgid "You can use the logo for that."
+msgstr ""
+
+#: mtt-admin-page.php:437
+msgid "Custom error message"
+msgstr ""
+
+#: mtt-admin-page.php:437
+msgid "(don't reveal what's the mistake, user or password)"
+msgstr ""
+
+#: mtt-admin-page.php:439
+msgid "Don't use html code."
+msgstr ""
+
+#: mtt-admin-page.php:448
+msgid "Log Out"
+msgstr ""
+
+#: mtt-admin-page.php:452
+msgid "Redirect logout to another address"
+msgstr ""
+
+#: mtt-admin-page.php:452
+msgid "The default behavior is being redirected to the login page..."
+msgstr ""
+
+#: mtt-admin-page.php:455
+msgid "What's the URL you want to redirect to"
+msgstr ""
+
+#: mtt-admin-page.php:464
+msgid "User profile"
+msgstr ""
+
+#: mtt-admin-page.php:468
+msgid "Change <strong>Aim</strong>-<strong>Yim</strong>-<strong>Jabber</strong> for <strong>Twitter</strong>-<strong>Facebook</strong>-<strong>LinkedIn</strong>"
+msgstr ""
+
+#: mtt-admin-page.php:468
+msgid "You have to choose between this one or the next one."
+msgstr ""
+
+#: mtt-admin-page.php:471
+msgid "Remove Aim/Yim/Jabber"
+msgstr ""
+
+#: mtt-admin-page.php:471
+msgid "Read above."
+msgstr ""
+
+#: mtt-admin-page.php:474
+msgid "Remove Visual Editor, Admin Color Scheme and Keyboard Shortcuts"
+msgstr ""
+
+#: mtt-admin-page.php:474
+msgid "These are kind of difficult to hide one by one, so it has to be in block."
+msgstr ""
+
+#: mtt-admin-page.php:477
+msgid "Completely hide the Personal Options block"
+msgstr ""
+
+#: mtt-admin-page.php:477
+msgid "If you're going to use the previous and the next options, use this one and the next instead."
+msgstr ""
+
+#: mtt-admin-page.php:480
+#, php-format
+msgid "Alternatively, you can disable it in a per user basis in each user <a href=\"%s/wp-admin/profile.php\">profile page</a>"
+msgstr ""
+
+#: mtt-admin-page.php:483
+msgid "Hide the About Yourself title and Biographical Info box"
+msgstr ""
+
+#: mtt-admin-page.php:503
+msgid "Database"
+msgstr ""
+
+#: mtt-admin-page.php:506
+msgid "Total number of revisions (all posts and pages)"
+msgstr ""
+
+#: mtt-admin-page.php:509
+msgid "A big number of revisions can decrease your database performance."
+msgstr ""
+
+#: mtt-admin-page.php:513
+msgid "Delete revisions"
+msgstr ""
+
+#: mtt-admin-page.php:518
+msgid "Yes, please delete them!"
+msgstr ""
+
+#: mtt-admin-page.php:534
+msgid "Reset plugin settings"
+msgstr ""
+
+#: mtt-admin-page.php:538
+msgid "Reset settings"
+msgstr ""
+
+#: mtt-admin-page.php:538
+msgid "Return to defaults... Being: no changes in my WordPress."
+msgstr ""
+
+#: mtt-admin-page.php:542
+msgid "Yes, please reset it!"
+msgstr ""
+

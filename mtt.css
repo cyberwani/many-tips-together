@@ -1,0 +1,38 @@
+input.checkbox { margin-right:8px; }
+input[type="checkbox"], input[type="text"] {
+	margin-right:10px;
+}
+li {margin:5px 0;}
+
+.revisions-number {
+	padding:5px;
+	font:bold 1.3em Arial, Helvetica, sans-serif;
+	color:#2155FF;
+}
+.red-revisions {
+	color:#B23300;	
+}
+/*.update-button {margin:-15px 0 0 -10px;}*/
+
+.postbox-container .meta-box-sortables {
+min-height: 0px;
+}
+
+
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
+	background-color: #FFFEF4;
+/*	margin-left:10px; */
+}
+.update-last {
+padding: 0 0 2em 0;
+}
+
+.desc {color:#787878; padding:0 0 10px 27px;border-bottom: solid #EBEBEB thin; }
+
+label.textinput, label.select {
+	width: 300px;
+	float:left;
+}
+label {
+	/*cursor:default;*/
+}
