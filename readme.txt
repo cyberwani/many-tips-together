@@ -2,7 +2,7 @@
 Tags: customize admin, web tips, maintenance mode, profile, login, logout 
 Requires at least: 3.1
 Tested up to: 3.2.1
-Stable tag: 0.9.7
+Stable tag: 0.9.8
 Contributors: brasofilo
 
 This plugin compiles many administrative customization tips in one simple interface.
