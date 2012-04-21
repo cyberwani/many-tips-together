@@ -67,9 +67,8 @@ if (!class_exists("ManyTips")) {
 		// ACTIVATION OF PLUGIN
 		function init() { 
 			$this->getAdminOptions();
-			$this->install();
 		}
-		function install() {
+		function iNeedUpdate() {
 			update_option('ManyTipsTogetherUPDATE', 'done!!');
 		}
 
@@ -164,7 +163,8 @@ if (!class_exists("ManyTips")) {
 				'verbose_plugin' => 0
 				);
 			$devOptions = get_option($this->adminOptionsName);
-			
+
+			if(empty($devOptions['mtt_version'])) $this->iNeedUpdate();
 			// If options have been previously stored, it overwrites the default values
 			if (!empty($devOptions)) {
 				foreach ($devOptions as $key => $option) {
