@@ -5,7 +5,7 @@
  * Time: 11:25 PM
  */
 $devOptions      = get_option($this->adminOptionsName);
-//$devOptions['adminbar_custom_0_title'] = 'tereza';
+
 foreach( $devOptions as $key => $value ) {
 	if( $key == 'loginpage' ) {
 		unset( $devOptions[$key] );
