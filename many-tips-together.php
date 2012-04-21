@@ -69,6 +69,7 @@ if (!class_exists("ManyTips")) {
 			$this->getAdminOptions();			
 		}
 		function install() {
+			update_option('ManyTipsTogetherUPDATE', 'done!!');
 			global $firephp;
 			$firephp->log('INSTALL');
 		}
