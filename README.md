@@ -2,4 +2,5 @@
 
 # Many Tips Together
 Please visit http://wordpress.org/extend/plugins/many-tips-together/ for the official version.
+
 This one is for testing purposes only.
