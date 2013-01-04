@@ -1,0 +1,134 @@
+/**
+ * @package Many Tips Together
+ * @author  Rodolfo Buaiz
+ */
+
+#wpbody-content .wrap {
+    width: 70%;
+}
+
+input.checkbox {
+    margin-right: 8px;
+}
+
+input[type="checkbox"], input[type="text"] {
+    margin-right: 10px;
+}
+
+li {
+    margin: 0;
+}
+
+.revisions-number {
+    padding: 5px;
+    font: bold 1.3em Arial, Helvetica, sans-serif;
+    color: #2155FF;
+}
+
+.red-revisions {
+    color: #B23300;
+}
+
+/*.update-button {margin:-15px 0 0 -10px;}*/
+
+.postbox-container .meta-box-sortables {
+    min-height: 0;
+}
+
+.postbox li {
+    border-bottom: solid #EBEBEB thin;
+    padding: 3px 0;
+}
+
+/*textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
+	background-color: #FFFEF4;
+	margin-left:10px; 
+}*/
+
+#mtt-all-options-table {
+    display: none;
+}
+
+
+
+.desc {
+    color: #787878;
+    margin: 4px 0 15px 0;
+    width: 40%;
+}
+
+.mtt-checkboxes {
+    padding: 5px 0 !important
+}
+
+#poststuff .inside {
+    margin: -6px 0;
+}
+
+.textinput {
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+label.textinput, label.select {
+    width: 40%;
+    display: inline-block;
+    margin-right: 13px;
+    clear: both;
+}
+
+label {
+    /*cursor:default;*/
+}
+
+.submit {
+    padding: .3em 0;
+}
+
+.mtt-color-picker {
+    margin-left: 40%;
+}
+
+.mtt-color-box {
+    width: 70px !important;
+}
+
+.mtt-hndle-red {
+    background-image: -ms-linear-gradient(top, #F9A3BB, #ECE0DE) !important;
+    background-image: -moz-linear-gradient(top, #F9A3BB, #ECE0DE) !important;
+    background-image: -o-linear-gradient(top, #F9A3BB, #ECE0DE) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F9A3BB), to(#ECE0DE)) !important;
+    background-image: -webkit-linear-gradient(top, #F9A3BB, #ECE0DE) !important;
+    background-image: linear-gradient(top, #F9A3BB, #ECE0DE) !important;
+}
+
+.mtt-hndle-blue {
+    background-image: -ms-linear-gradient(top, #a0c5f7, #dce6eb) !important;
+    background-image: -moz-linear-gradient(top, #a0c5f7, #dce6eb) !important;
+    background-image: -o-linear-gradient(top, #a0c5f7, #dce6eb) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a0c5f7), to(#dce6eb)) !important;
+    background-image: -webkit-linear-gradient(top, #a0c5f7, #dce6eb) !important;
+    background-image: linear-gradient(top, #a0c5f7, #dce6eb) !important;
+}
+
+.mtt-hndle-yellow {
+    background-image: -ms-linear-gradient(top, #F9F0A1, #ECE3D8) !important;
+    background-image: -moz-linear-gradient(top, #F9F0A1, #ECE3D8) !important;
+    background-image: -o-linear-gradient(top, #F9F0A1, #ECE3D8) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E6F0F9), to(#B1D4EC)) !important;
+    background-image: -webkit-linear-gradient(top, #F9F0A1, #ECE3D8) !important;
+    background-image: linear-gradient(top, #F9F0A1, #ECE3D8) !important;
+}
+
+.mtt-advanced {
+    margin-top: -14px !important;
+}
+#bsf-link {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    cursor: progress;
+}
+
+

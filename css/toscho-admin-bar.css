@@ -1,0 +1,56 @@
+/* ROD */
+#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input { background:		ButtonFace 							!important;}
+#wpadminbar .quicklinks > ul > li {
+    border-right: 0px;
+}
+#wpadminbar .quicklinks .ab-top-secondary > li {
+    border-left: 1px solid #DFDFDF;
+}
+/* END ROD */
+#wpadminbar
+{
+	border-bottom:	1px solid ButtonShadow;
+}
+#wpadminbar,
+#wpadminbar .quicklinks a,
+#wpadminbar .shortlink-input,
+.adminbar-button
+{
+	background:		ButtonFace 							!important;
+	color:			ButtonText							!important;
+}
+#wpadminbar *
+{
+	font-family:	'Segoe UI', sans-serif				!important;
+	text-shadow:	none								!important;
+}
+#wpadminbar #adminbarsearch .adminbar-input
+{
+	border:			1px solid							!important;
+	border-color:	ButtonShadow ButtonHighlight
+					ButtonHighlight ButtonShadow		!important;
+	box-shadow:		none								!important;
+	width:			250px								!important;
+}
+#wpadminbar #adminbarsearch .adminbar-input:focus
+{
+	background:		#fff								!important;
+}
+#wpadminbar .quicklinks a:hover
+{
+	background:		Highlight							!important;
+	color:			HighlightText						!important;
+}
+#wpadminbar .quicklinks a
+{
+	border-width:	0 1px 1px	!important;
+	border-color:	ButtonFace ButtonShadow
+					ButtonShadow ButtonHighlight		!important;
+}
+#wpadminbar .quicklinks a span#ab-awaiting-mod,
+#wpadminbar .quicklinks a span#ab-updates
+{
+	background:		ButtonText							!important;
+	color:			ButtonFace							!important;
+	border-radius:	0									!important;
+}

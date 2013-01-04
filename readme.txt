@@ -1,43 +1,57 @@
 === Many Tips Together ===
-Tags: customize admin, web tips, maintenance mode, profile, login, logout 
-Requires at least: 3.1
-Tested up to: 3.4-beta2
-Stable tag: 1.0
 Contributors: brasofilo
+Donate link: http://mtt.brasofilo.com
+Tags: admin, admin interface, tuning, profile, posts, pages, login, maintenance mode, tuning, snippets, clients
+Requires at least: 3.3
+Tested up to: 3.5
+Stable tag: 2.0
+Licence: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Do you like to adjust and style the backend as much as the frontend?
 So, we are together!
+Lots of pro tips and enhancements in one place.
 
 == Description ==
-This plugin is a compilation of lots of tips for enhancing, styling and reducing WordPress backend. Some are present in some plugins, some are not. Usually we put them in our functions.php, but if you handle many WordPress installations then better plugged then themed.
+With MTT you'll be able to simplify and make deep customizations in the administrative interface.
 
-The interface, although loaded, is pretty straigh forward: choose the section and select your customizations. 
-The tips came from a variety of sources and are documented, whenever due, in the help sections.
+It is a compilation of tips for enhancing, styling and reducing WordPress backend. 
+Some are borrowed from other plugins, many are not. 
+Usually we put them in the theme's functions.php, 
+but if you handle many WordPress installations or swap themes frequently so better plugged then themed.
 
-> Upgrading to version 1.0 - *Unfortunately your previous settings will be lost, please take note of them before updating the plugin. This won't happen again, sorry for the inconvenience*.
+The plugin interface is pretty straight forward: choose the section and select your customizations.
+The tips came from a variety of sources and are documented, whenever due and the best I could, 
+throughout the code and in the help sections.
+
+If you notice a missing credit, please notify it.
 
 = Features =
-* Customize Login Screen
+* Login Screen - fully customize
 * Admin Bar - remove and add items
 * Dashboard - remove and add widgets
 * Admin Menus - remove menu items
 * Posts - rename the word "Posts" in (almost) all WordPress interface
 * Posts and Pages listings - customize rows and columns
 * Widgets - remove default widgets
-* Customize User Profile page
+* Profile page - fully customize
 * Maintenance Mode - with minimum Role allowed and possibility to block only the backend
 * some other goodies in Post/Page editing, Media Library, Site E-mail, WordPress behavior, Header and Footer, 3 handy Shortcodes 
 
-= Screencast =
-[youtube htpp]
+= Acknowledgements =
+* [Adminimize](http://wordpress.org/extend/plugins/adminimize/), by Frank Büeltge, does an awesome job hiding WordPress elements, but I wanted more, and these are some of the great resources where I found many snippets: [Stack Exchange](http://wordpress.stackexchange.com/questions/1567/best-collection-of-code-for-your-functions-php-file), [WPengineer](http://wpengineer.com), [wpbeginner](http://www.wpbeginner.com), [CSS-TRICKS](http://css-tricks.com), [Smashing Magazine](http://wp.smashingmagazine.com), [Justin Tadlock](http://justintadlock.com)...
+* The customization of the Meta widget is derived from the plugin [Customize Meta Widget](http://wordpress.org/extend/plugins/customize-meta-widget/), by Jahy.
+* The option to hide the help texts from many areas of WordPress uses the CSS file of the plugin [Admin Expert Mode](http://wordpress.org/extend/plugins/admin-expert-mode/), by Scott Reilly.
+* The import/export functionality is derived from Adminimize.
 
 = Localizations =
-Portuguese, Spanish
+* Português (tudo traduzido, mas aceito sugestões)
+* Español (aún faltan unos pocos textos de ayuda)
 
 == Installation ==
 1. Upload `many-tips-together.zip` to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the *Plugins* menu in WordPress.
-3. Go to *Settings -> Many Tips Together* and configure the plugin.
+3. Go to *Settings -> Many Tips Together* and have fun.
 
 = Uninstall =
 The 'reset' button doesn't delete the database entry, but if you delete the plugin, the entry will be deleted (via unsinstall.php)
@@ -48,18 +62,45 @@ Don't hesitate in posting a new topic here in [WordPress support forum](http://w
 
 
 == Screenshots ==
-1. Viewing all options, with some demo settings, and help texts not visible
+1. Login screen
+2. Maintenance mode
+3. Admin bar (custom site link and custom menu, hidden elements and no Howdy), Admin menu (Posts renamed to Articles, hidden elements), Posts listing (ID and Thumbnail columns, custom color for different post status)
+4. Profile page (the button Logout instead of Your Account is a feature of Adminimize)
 
 == Changelog ==
+**Version 2.0**
+
+* Completely refactored, new interface and optimized code
+
+* Interface using @bainternet's [Admin Page Class](https://github.com/bainternet/Admin-Page-Class)
+ 
+* Coded after one year of learning at [WordPress Stack Exchange](http://wordpress.stackexchange.com/users/12615/brasofilo)
+
+**Version 1.0.3**
+
+* New feature: hide plugin actions, for achieving an extreme slim plugin page
+
+* New feature: add image dimensions to Media Upload window (see this [WordPress Answers](http://wordpress.stackexchange.com/a/51165/12615))
+
+* New feature: Duplicate and Delete Revisions available in Quick Edit for posts and pages
+
+* Improvement: started to add basic Multisite support (inactive plugins colors - has to be enabled in the main site)
+
+* Improvement: hide general plugin notices will be replaced with specific plugin notices (at first, BackupBuddy and Analytics360º notices are available for removal, please report other plugin notices you wish to hide)
+
+**Version 1.0.2**
+
+* Bug fix: corrected incompatibility with PHP versions prior to 5.3
+
+**Version 1.0.1**
+
+* Bug fix: developer section not loading
+
 **Version 1.0**
-* Remake of the interface, better organization, revised code
-* Improvement: select the roles capable of viewing the site when in Maintenance Mode.
-* Improvement: maintenance mode now blocks admin area for selected roles
-* Improvement: more options to customize the Profile page
-* New feature: Admin Bar customization
-* New feature: Post/Page listing options
-* New feature: Rename the word "Posts" to whatever you want
-* New feature: Shortcodes : YouTube full window popup - SoundCloud official shortcode - Google Docs document viewer  
+
+* Remake of the interface
+* Revised code
+* Lots of new features
 
 **Version 0.9.4**
 
@@ -97,4 +138,13 @@ Don't hesitate in posting a new topic here in [WordPress support forum](http://w
 
 **Version 0.7**
 
-* Plugin launch. Technicaly fully functional. To do: review code comments, translate some comments and var names to English (right now it's mixed EN/PT/ES), few help texts to complete, Portuguese_BR translation incomplete, Spanish translation not done yet.
+* Plugin launch. Technically fully functional. 
+* To do: review code comments, translate some comments and var names to English 
+ (right now it's mixed EN/PT/ES), few help texts to complete, Portuguese_BR translation incomplete, 
+ Spanish translation not done yet.
+
+== Upgrade Notice ==
+
+= 2.0 =
+Complete remake, interface and code. New features, fully tested with 3.5. Basic Multisite capabilities.
+
