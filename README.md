@@ -21,20 +21,29 @@ If you notice a missing credit, please notify it.
 
 
 ## Screenshots
+
+### Plugin page
 ![Plugin page](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-1.png)
 
+### Login screen
 ![Login](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-2.jpg)
 
+### Maintenance mode
 ![Maintenance](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-3.jpg)
 
+### Posts with ID and Thumbnail columns. Duplicate and Delete Revisions actions.
 ![Posts](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-4.png)
 
+### Profile page
 ![Profile](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-5.png)
 
+### Media Library with bigger thumnails, ID and All Thumbs column, Re-attachment and Download link
 ![Media library](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-6.png)
 
+### Plugins page, slim display, custom color for inactive plugins, and custom color for selected authors
 ![Plugins](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-7.png)
 
+### Multisite custom columns, ID and Blogname
 ![Multisite](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-8.png)
 
 ## Other Notes
