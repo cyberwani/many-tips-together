@@ -4,8 +4,8 @@
  * Plugin Name: Many Tips Together **2013**
  * Plugin URI: http://wordpress.org/extend/plugins/many-tips-together
  * Description: This plugin compiles many administrative customization tips in one simple interface.
- * Version: 2.0 beta
- * Stable Tag: 2.0
+ * Version: 2.0 beta RC1
+ * Stable Tag: 1.0.3
  * Author: Rodolfo Buaiz
  * Author URI: http://rodbuaiz.com/
  * Text Domain: mtt

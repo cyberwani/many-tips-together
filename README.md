@@ -5,6 +5,8 @@ Please visit http://wordpress.org/extend/plugins/many-tips-together/ for the off
 
 This one is for testing purposes only.
 
+Version: 2.0 beta RC1
+
 ## Description
 With MTT you'll be able to simplify and make deep customizations in the administrative interface.
 

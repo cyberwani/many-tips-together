@@ -4,8 +4,8 @@ Donate link: http://mtt.brasofilo.com
 Tags: admin, admin interface, tuning, profile, posts, pages, login, maintenance mode, tuning, snippets, clients
 Requires at least: 3.3
 Tested up to: 3.5
-Stable tag: 2.0
-Licence: GPLv2 or later
+Stable tag: 1.0.3
+License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Do you like to adjust and style the backend as much as the frontend?
@@ -27,26 +27,34 @@ throughout the code and in the help sections.
 If you notice a missing credit, please notify it.
 
 = Features =
-* Login Screen - fully customize
+* Appearance
 * Admin Bar - remove and add items
-* Dashboard - remove and add widgets
 * Admin Menus - remove menu items
-* Posts - rename the word "Posts" in (almost) all WordPress interface
-* Posts and Pages listings - customize rows and columns
+* Dashboard - remove and add widgets
+* Post and Page Listing - customize rows and columns
+* Post and Page Editing
+* Media
 * Widgets - remove default widgets
-* Profile page - fully customize
+* Plugins
+* Users and Profile - fully customize
+* Shortcodes
+* General Settings
+* Login and Logout - fully customize
 * Maintenance Mode - with minimum Role allowed and possibility to block only the backend
-* some other goodies in Post/Page editing, Media Library, Site E-mail, WordPress behavior, Header and Footer, 3 handy Shortcodes 
+
 
 = Acknowledgements =
-* [Adminimize](http://wordpress.org/extend/plugins/adminimize/), by Frank Büeltge, does an awesome job hiding WordPress elements, but I wanted more, and these are some of the great resources where I found many snippets: [Stack Exchange](http://wordpress.stackexchange.com/questions/1567/best-collection-of-code-for-your-functions-php-file), [WPengineer](http://wpengineer.com), [wpbeginner](http://www.wpbeginner.com), [CSS-TRICKS](http://css-tricks.com), [Smashing Magazine](http://wp.smashingmagazine.com), [Justin Tadlock](http://justintadlock.com)...
-* The customization of the Meta widget is derived from the plugin [Customize Meta Widget](http://wordpress.org/extend/plugins/customize-meta-widget/), by Jahy.
+* Everything changed after [WordPress Stack Exchange](http://wordpress.stackexchange.com/)
+* Plugin interface using @bainternet's [Admin Page Class](https://github.com/bainternet/Admin-Page-Class)
+* Plugin theme by [@toscho](wordpress.stackexchange.com/users/73/toscho)
+* CSS for hiding help texts, by {CITATION NEEDED}
+* {TODO: revise this}
+* Everything started with [Adminimize](http://wordpress.org/extend/plugins/adminimize/), by Frank Büeltge, which does an awesome job hiding WordPress elements, but I wanted more, and these are some of the great resources where I found many snippets: [Stack Exchange](http://wordpress.stackexchange.com/questions/1567/best-collection-of-code-for-your-functions-php-file), [WPengineer](http://wpengineer.com), [wpbeginner](http://www.wpbeginner.com), [CSS-TRICKS](http://css-tricks.com), [Smashing Magazine](http://wp.smashingmagazine.com), [Justin Tadlock](http://justintadlock.com)...
 * The option to hide the help texts from many areas of WordPress uses the CSS file of the plugin [Admin Expert Mode](http://wordpress.org/extend/plugins/admin-expert-mode/), by Scott Reilly.
-* The import/export functionality is derived from Adminimize.
 
 = Localizations =
-* Português (tudo traduzido, mas aceito sugestões)
-* Español (aún faltan unos pocos textos de ayuda)
+* Português
+* Español
 
 == Installation ==
 1. Upload `many-tips-together.zip` to the `/wp-content/plugins/` directory.

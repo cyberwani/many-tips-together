@@ -221,11 +221,7 @@ class MTT_Hook_Login
         
         $body_attachment = ' ';
         if( !empty( $opts['loginpage_body_attachment'] ) )
-        {
-             if( 'empty' != $opts['loginpage_body_attachment'] ) 
-                 $body_attachment = $opts['loginpage_body_attachment'] . ' ';
-            
-        }
+            $body_attachment = $opts['loginpage_body_attachment'] . ' ';
             
         $body_img        = !empty( $opts['loginpage_body_img']['src'] )
             ? 'url(' . $opts['loginpage_body_img']['src'] . ')' : '';

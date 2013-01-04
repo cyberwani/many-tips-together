@@ -2,21 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Many Tips Together\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-03 00:34+0100\n"
-"PO-Revision-Date: 2013-01-03 02:12+0100\n"
+"POT-Creation-Date: 2013-01-04 11:10+0100\n"
+"PO-Revision-Date: 2013-01-04 11:10+0100\n"
 "Last-Translator: Rodolfo Buaiz <brasofilo@gmai.com>\n"
 "Language-Team: brasofilo <brasofilo@gmail.com>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: /www_dev/dev.plugins/_projetos/plugins/many-tips-"
 "together\n"
-"Language: en\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: many-tips-together.php:206
+#: many-tips-together.php:201
 msgid "Settings"
 msgstr ""
 
@@ -40,20 +40,22 @@ msgstr ""
 msgid "Post and Page Listing"
 msgstr ""
 
-#: inc/class-admin.php:135
+#: inc/class-admin.php:135 inc/admin-tabs/postediting.php:10
 msgid "Post and Page Editing"
 msgstr ""
 
-#: inc/class-admin.php:136 inc/admin-tabs/adminmenus.php:30
+#: inc/class-admin.php:136 inc/admin-tabs/adminmenus.php:31
+#: inc/admin-tabs/media.php:11
 msgid "Media"
 msgstr ""
 
-#: inc/class-admin.php:137
+#: inc/class-admin.php:137 inc/admin-tabs/widgets.php:10
 msgid "Widgets"
 msgstr ""
 
-#: inc/class-admin.php:138 inc/admin-tabs/adminmenus.php:35
-#: inc/admin-tabs/dashboard.php:18
+#: inc/class-admin.php:138 inc/admin-tabs/adminmenus.php:36
+#: inc/admin-tabs/dashboard.php:18 inc/admin-tabs/multisite.php:73
+#: inc/admin-tabs/plugins.php:10
 msgid "Plugins"
 msgstr ""
 
@@ -61,7 +63,7 @@ msgstr ""
 msgid "Users and Profile"
 msgstr ""
 
-#: inc/class-admin.php:140
+#: inc/class-admin.php:140 inc/admin-tabs/shortcodes.php:11
 msgid "Shortcodes"
 msgstr ""
 
@@ -77,7 +79,7 @@ msgstr ""
 msgid "Maintenance Mode"
 msgstr ""
 
-#: inc/class-admin.php:148
+#: inc/class-admin.php:148 inc/admin-tabs/multisite.php:10
 msgid "Multisite"
 msgstr ""
 
@@ -85,51 +87,32 @@ msgstr ""
 msgid "Import Export"
 msgstr ""
 
-#: inc/class-hook-revisions-duplicate.php:191
-#: inc/class-hook-revisions-duplicate.php:192
-msgid "Duplicate"
-msgstr ""
-
-#: inc/class-hook-revisions-duplicate.php:196
-#, php-format
-msgid "Are you sure you want to delete the REVISIONS of the post %s?"
-msgstr ""
-
-#: inc/class-hook-revisions-duplicate.php:202
-msgid "Confirm delete of revisions?"
-msgstr ""
-
-#: inc/class-hook-revisions-duplicate.php:204
-#: inc/class-hook-revisions-duplicate.php:205
-msgid "Delete Revisions"
-msgstr ""
-
-#: inc/class-plugin-metabox.php:31 inc/class-plugin-metabox.php:32
-#: inc/class-plugin-metabox.php:37
+#: inc/class-admin.php:323 inc/class-plugin-metabox.php:34
+#: inc/class-plugin-metabox.php:36
 msgid "version"
 msgstr ""
 
-#: inc/class-plugin-metabox.php:45
+#: inc/class-plugin-metabox.php:46
 msgid "by"
 msgstr ""
 
-#: inc/class-plugin-metabox.php:53
+#: inc/class-plugin-metabox.php:54
 msgid "Hide all help tabs"
 msgstr ""
 
-#: inc/class-plugin-metabox.php:58
+#: inc/class-plugin-metabox.php:59
 msgid "(some settings need a second refresh<br />for being visible)"
 msgstr ""
 
-#: inc/class-plugin-metabox.php:65
+#: inc/class-plugin-metabox.php:66
 msgid "Update settings"
 msgstr ""
 
-#: inc/class-plugin-metabox.php:79
+#: inc/class-plugin-metabox.php:80
 msgid "Settings updated."
 msgstr ""
 
-#: inc/class-plugin-metabox.php:102
+#: inc/class-plugin-metabox.php:103
 msgid "Rate this plugin in wordpress.org"
 msgstr ""
 
@@ -327,7 +310,8 @@ msgstr ""
 msgid "Updates"
 msgstr ""
 
-#: inc/admin-tabs/adminbar.php:37 inc/admin-tabs/adminmenus.php:33
+#: inc/admin-tabs/adminbar.php:37 inc/admin-tabs/adminmenus.php:34
+#: inc/admin-tabs/media.php:100
 msgid "Comments"
 msgstr ""
 
@@ -344,6 +328,7 @@ msgid "My account"
 msgstr ""
 
 #: inc/admin-tabs/adminbar.php:47 inc/admin-tabs/dashboard.php:25
+#: inc/admin-tabs/multisite.php:78 inc/admin-tabs/widgets.php:68
 msgid "Remove default items"
 msgstr ""
 
@@ -360,7 +345,7 @@ msgid "Remove or change \"Howdy\""
 msgstr ""
 
 #: inc/admin-tabs/adminbar.php:72 inc/admin-tabs/dashboard.php:55
-#: inc/admin-tabs/dashboard.php:79 inc/admin-tabs/dashboard.php:103
+#: inc/admin-tabs/dashboard.php:80 inc/admin-tabs/dashboard.php:105
 msgid "Title"
 msgstr ""
 
@@ -418,11 +403,11 @@ msgstr ""
 msgid "LOREM IPSUM"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:23
+#: inc/admin-tabs/adminmenus.php:24
 msgid "REMOVE MENU ITEMS"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:24
+#: inc/admin-tabs/adminmenus.php:25
 msgid ""
 "The following simply removes the menus for all users.<br>Note that this "
 "doesn't prevent the access using the actual url address of the item.<br/>For "
@@ -433,79 +418,105 @@ msgid ""
 "plugins/user-role-editor/\">User-Role-Editor</a>"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:29
+#: inc/admin-tabs/adminmenus.php:30
 msgid "Posts"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:31
+#: inc/admin-tabs/adminmenus.php:32 inc/admin-tabs/widgets.php:52
 msgid "Links"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:32
+#: inc/admin-tabs/adminmenus.php:33 inc/admin-tabs/widgets.php:49
 msgid "Pages"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:34
+#: inc/admin-tabs/adminmenus.php:35
 msgid "Appearence"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:36
+#: inc/admin-tabs/adminmenus.php:37
 msgid "Users"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:37
+#: inc/admin-tabs/adminmenus.php:38
 msgid "Tools"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:40
+#: inc/admin-tabs/adminmenus.php:41
 msgid "Select items to remove:"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:50
-msgid "RENAME POSTS"
-msgstr ""
-
-#: inc/admin-tabs/adminmenus.php:51
-msgid "to whatever you want (i.e. news, articles)"
-msgstr ""
-
-#: inc/admin-tabs/adminmenus.php:58
-msgid "Name"
+#: inc/admin-tabs/adminmenus.php:53
+msgid "ADVANCED CUSTOM FIELDS"
 msgstr ""
 
 #: inc/admin-tabs/adminmenus.php:65
-msgid "Singular Name"
+msgid "Select authorized user."
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:72
-msgid "Add New"
+#: inc/admin-tabs/adminmenus.php:74
+msgid "Advanced Custom Fields: show ACF menu only for one user."
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:79
-msgid "Edit Posts"
+#: inc/admin-tabs/adminmenus.php:88
+msgid "Advanced Custom Fields: hide \"Options\" from non-administrators"
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:86
-msgid "View Posts"
+#: inc/admin-tabs/adminmenus.php:101
+msgid "If you want to show only for one user, select bellow."
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:93
-msgid "Search Posts"
+#: inc/admin-tabs/adminmenus.php:102
+msgid ""
+"If none is selected, the administrator rule applies. Otherwise, this "
+"overrides the previous."
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:100
-msgid "No Posts found"
-msgstr ""
-
-#: inc/admin-tabs/adminmenus.php:107
-msgid "No Posts found in trash"
+#: inc/admin-tabs/adminmenus.php:113
+msgid "RENAME POSTS"
 msgstr ""
 
 #: inc/admin-tabs/adminmenus.php:114
+msgid "to whatever you want (i.e. news, articles)"
+msgstr ""
+
+#: inc/admin-tabs/adminmenus.php:121
+msgid "Name"
+msgstr ""
+
+#: inc/admin-tabs/adminmenus.php:128
+msgid "Singular Name"
+msgstr ""
+
+#: inc/admin-tabs/adminmenus.php:135
+msgid "Add New"
+msgstr ""
+
+#: inc/admin-tabs/adminmenus.php:142
+msgid "Edit Posts"
+msgstr ""
+
+#: inc/admin-tabs/adminmenus.php:149
+msgid "View Posts"
+msgstr ""
+
+#: inc/admin-tabs/adminmenus.php:156
+msgid "Search Posts"
+msgstr ""
+
+#: inc/admin-tabs/adminmenus.php:163
+msgid "No Posts found"
+msgstr ""
+
+#: inc/admin-tabs/adminmenus.php:171
+msgid "No Posts found in trash"
+msgstr ""
+
+#: inc/admin-tabs/adminmenus.php:179
 msgid "Enable renaming the word \"Posts\""
 msgstr ""
 
-#: inc/admin-tabs/adminmenus.php:116
+#: inc/admin-tabs/adminmenus.php:181
 #, php-format
 msgid ""
 "Maybe you prefer it to be called News or Articles and don't want to create a "
@@ -540,70 +551,77 @@ msgid ""
 "set in a user basis, here in a role basis."
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:46
+#: inc/admin-tabs/appearance.php:44
+msgid "PLUGIN THEME - a WPSE diamond touch"
+msgstr ""
+
+#: inc/admin-tabs/appearance.php:51
 msgid "Clean Admin"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:47
-msgid "An admin interface without gradients, box-shadow and rounded corners."
+#: inc/admin-tabs/appearance.php:53
+#, php-format
+msgid ""
+"An admin interface without gradients, box-shadow and rounded corners. by: %s"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:55
+#: inc/admin-tabs/appearance.php:67
 msgid "Admin Bar In System Colors"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:56
-msgid "Takes away all the fancy stuff and enables a readable interface."
+#: inc/admin-tabs/appearance.php:69
+#, php-format
+msgid "Takes away all the fancy stuff and enables a readable interface. by: %s"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:65
+#: inc/admin-tabs/appearance.php:83
 msgid "HEADER AND FOOTER"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:70 inc/admin-tabs/appearance.php:86
+#: inc/admin-tabs/appearance.php:88 inc/admin-tabs/appearance.php:104
 msgid "Message to display"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:78
+#: inc/admin-tabs/appearance.php:96
 msgid "Header: enable notice in the Settings page"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:79
+#: inc/admin-tabs/appearance.php:97
 #, php-format
 msgid ""
 "Useful for displaying a notice for clients: \"<em>Change this settings at "
 "your own risk...</em>\".<br />Tip via: %s"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:96
+#: inc/admin-tabs/appearance.php:114
 msgid "Select roles to display the notice, leave empty to show to all roles."
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:103
+#: inc/admin-tabs/appearance.php:121
 msgid "Header: Enable notice all admin pages"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:104
+#: inc/admin-tabs/appearance.php:122
 msgid "Useful for displaying a message to all users of the site."
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:112
+#: inc/admin-tabs/appearance.php:130
 msgid "Footer: hide"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:119
+#: inc/admin-tabs/appearance.php:137
 msgid "Text to display on the left (html enabled)"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:126
+#: inc/admin-tabs/appearance.php:144
 msgid "Text to display on the right (html enabled)"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:133
+#: inc/admin-tabs/appearance.php:151
 msgid "Footer: show only your message"
 msgstr ""
 
-#: inc/admin-tabs/appearance.php:134
+#: inc/admin-tabs/appearance.php:152
 msgid ""
 "Remove all WordPress and other plugins messages, so your message is the only "
 "one there..."
@@ -621,7 +639,7 @@ msgstr ""
 msgid "Incoming Links"
 msgstr ""
 
-#: inc/admin-tabs/dashboard.php:17
+#: inc/admin-tabs/dashboard.php:17 inc/admin-tabs/multisite.php:72
 msgid "Right now"
 msgstr ""
 
@@ -629,15 +647,15 @@ msgstr ""
 msgid "Recent Drafts"
 msgstr ""
 
-#: inc/admin-tabs/dashboard.php:20
+#: inc/admin-tabs/dashboard.php:20 inc/admin-tabs/widgets.php:58
 msgid "Recent Comments"
 msgstr ""
 
-#: inc/admin-tabs/dashboard.php:21
+#: inc/admin-tabs/dashboard.php:21 inc/admin-tabs/multisite.php:74
 msgid "WordPress Blog"
 msgstr ""
 
-#: inc/admin-tabs/dashboard.php:22
+#: inc/admin-tabs/dashboard.php:22 inc/admin-tabs/multisite.php:75
 msgid "Other WordPress News"
 msgstr ""
 
@@ -653,21 +671,23 @@ msgstr ""
 msgid "Add Custom Post Types to Right Now Widget"
 msgstr ""
 
-#: inc/admin-tabs/dashboard.php:37
+#: inc/admin-tabs/dashboard.php:37 inc/admin-tabs/media.php:46
+#: inc/admin-tabs/media.php:59 inc/admin-tabs/postediting.php:17
+#: inc/admin-tabs/postediting.php:57 inc/admin-tabs/postlisting.php:33
 #, php-format
 msgid "Tip via: %s"
 msgstr ""
 
 #: inc/admin-tabs/dashboard.php:43
-msgid "Hide the footer of Right Now widget "
+msgid "Hide the footer of Right Now widget"
 msgstr ""
 
 #: inc/admin-tabs/dashboard.php:50
 msgid "ADD CUSTOM WIDGETS"
 msgstr ""
 
-#: inc/admin-tabs/dashboard.php:62 inc/admin-tabs/dashboard.php:86
-#: inc/admin-tabs/dashboard.php:110
+#: inc/admin-tabs/dashboard.php:62 inc/admin-tabs/dashboard.php:87
+#: inc/admin-tabs/dashboard.php:112
 msgid "Content"
 msgstr ""
 
@@ -675,16 +695,16 @@ msgstr ""
 msgid "Enable Widget 1"
 msgstr ""
 
-#: inc/admin-tabs/dashboard.php:70 inc/admin-tabs/dashboard.php:94
-#: inc/admin-tabs/dashboard.php:118
+#: inc/admin-tabs/dashboard.php:70 inc/admin-tabs/dashboard.php:95
+#: inc/admin-tabs/dashboard.php:120
 msgid "Use this dashboards to put your own messages or iframes or embeds."
 msgstr ""
 
-#: inc/admin-tabs/dashboard.php:93
+#: inc/admin-tabs/dashboard.php:94
 msgid "Enable Widget 2"
 msgstr ""
 
-#: inc/admin-tabs/dashboard.php:117
+#: inc/admin-tabs/dashboard.php:119
 msgid "Enable Widget 3"
 msgstr ""
 
@@ -754,10 +774,10 @@ msgid "TAXONOMY ID AND POST COUNT"
 msgstr ""
 
 #: inc/admin-tabs/general.php:90
-msgid "Enable "
+msgid "Enable"
 msgstr ""
 
-#: inc/admin-tabs/general.php:100
+#: inc/admin-tabs/general.php:100 inc/admin-tabs/widgets.php:59
 msgid "RSS"
 msgstr ""
 
@@ -1064,7 +1084,7 @@ msgstr ""
 msgid "Other options"
 msgstr ""
 
-#: inc/admin-tabs/maintenance.php:94
+#: inc/admin-tabs/maintenance.php:94 inc/admin-tabs/profile.php:110
 msgid "Custom CSS"
 msgstr ""
 
@@ -1083,11 +1103,73 @@ msgid ""
 "maintenance/index.php</strong></em>."
 msgstr ""
 
-#: inc/admin-tabs/media.php:14
+#: inc/admin-tabs/media.php:16
+msgid "MEDIA LIBRARY"
+msgstr ""
+
+#: inc/admin-tabs/media.php:24
+msgid "Bigger thumbnails in the default column"
+msgstr ""
+
+#: inc/admin-tabs/media.php:34
+msgid "Add ID column"
+msgstr ""
+
+#: inc/admin-tabs/media.php:44
+msgid "Add image size column"
+msgstr ""
+
+#: inc/admin-tabs/media.php:57
+msgid ""
+"Add a column that lists all thumbnails of the image, with direct link to it."
+msgstr ""
+
+#: inc/admin-tabs/media.php:70
+msgid "Download link in row actions"
+msgstr ""
+
+#: inc/admin-tabs/media.php:72
+#, php-format
+msgid ""
+"Adds a download link to all items (Edit|Delete|View|Download). Tip via: %s"
+msgstr ""
+
+#: inc/admin-tabs/media.php:86
+msgid "Enables the re-attachemnt"
+msgstr ""
+
+#: inc/admin-tabs/media.php:88
+#, php-format
+msgid ""
+"Change the parent of the media file to another post/page<br />Unfortunately, "
+"this disables the capability to sort the column... Tip via: %s"
+msgstr ""
+
+#: inc/admin-tabs/media.php:99
+msgid "Discussion"
+msgstr ""
+
+#: inc/admin-tabs/media.php:101
+msgid "Slug"
+msgstr ""
+
+#: inc/admin-tabs/media.php:102
+msgid "Author"
+msgstr ""
+
+#: inc/admin-tabs/media.php:105
+msgid "Remove Meta Boxes"
+msgstr ""
+
+#: inc/admin-tabs/media.php:115
+msgid "IMAGES UPLOAD"
+msgstr ""
+
+#: inc/admin-tabs/media.php:123
 msgid "Sanitize filename"
 msgstr ""
 
-#: inc/admin-tabs/media.php:15
+#: inc/admin-tabs/media.php:125
 #, php-format
 msgid ""
 "Removes symbols, spaces, latin and other languages characters from uploaded "
@@ -1095,165 +1177,126 @@ msgid ""
 "lowercase and dahes)<br />Tip via: %s"
 msgstr ""
 
-#: inc/admin-tabs/media.php:21
-msgid "Add ID column to the Media Library "
+#: inc/admin-tabs/media.php:135
+msgid "Sharpen resized images (only jpg)"
 msgstr ""
 
-#: inc/admin-tabs/media.php:28
-msgid "Add image size column to the Media Library "
-msgstr ""
-
-#: inc/admin-tabs/media.php:35
-msgid "Add a column in ML that lists all thumbnails of the image"
-msgstr ""
-
-#: inc/admin-tabs/media.php:42
-msgid "Add image size column to the Media Upload window"
-msgstr ""
-
-#: inc/admin-tabs/media.php:43
-#, php-format
-msgid ""
-"ONLY WORKS for the old Thickbox window, NOT the new Media Library. Tip via: "
-"%s"
-msgstr ""
-
-#: inc/admin-tabs/media.php:49
-msgid "Enables the re-attachemnt "
-msgstr ""
-
-#: inc/admin-tabs/media.php:50
-#, php-format
-msgid ""
-"Change the parent of the media file to another post/page<br />Unfortunately, "
-"this disables the capability to sort the column... Tip via: %s"
-msgstr ""
-
-#: inc/admin-tabs/media.php:63
-msgid "Sharpen resized images (only jpg) "
-msgstr ""
-
-#: inc/admin-tabs/media.php:64
+#: inc/admin-tabs/media.php:137
 #, php-format
 msgid ""
 "Check an <a href=\"http://i.stack.imgur.com/hkLaX.png\" target=\"_blank"
 "\">example</a>. . . Tip via: %s"
 msgstr ""
 
-#: inc/admin-tabs/media.php:70
+#: inc/admin-tabs/media.php:147
 msgid "Quality of resized Jpegs"
 msgstr ""
 
-#: inc/admin-tabs/media.php:71
+#: inc/admin-tabs/media.php:148
 msgid "From 1 to 100. WordPress default is 90."
 msgstr ""
 
-#: inc/admin-tabs/media.php:78
-msgid "Discussion"
+#: inc/admin-tabs/media.php:157
+msgid "Add image size column to the Media Upload window"
 msgstr ""
 
-#: inc/admin-tabs/media.php:80
-msgid "Slug"
-msgstr ""
-
-#: inc/admin-tabs/media.php:81
-msgid "Author"
-msgstr ""
-
-#: inc/admin-tabs/media.php:83
-msgid "Remove Meta Boxes"
-msgstr ""
-
-#: inc/admin-tabs/multisite.php:11
-msgid "This section only appears in the main site and for super-admins."
+#: inc/admin-tabs/media.php:159
+#, php-format
+msgid ""
+"ONLY WORKS for the old Thickbox window, NOT the new Media Library. Tip via: "
+"%s"
 msgstr ""
 
 #: inc/admin-tabs/multisite.php:14
-msgid "Enable Active Plugins widget"
-msgstr ""
-
-#: inc/admin-tabs/multisite.php:15
-msgid "Lists all network activated plugins, and all sites with their plugins."
+msgid "This section only appears in the main site and for super-admins."
 msgstr ""
 
 #: inc/admin-tabs/multisite.php:21
+msgid "Enable Active Plugins widget"
+msgstr ""
+
+#: inc/admin-tabs/multisite.php:22
+msgid "Lists all network activated plugins, and all sites with their plugins."
+msgstr ""
+
+#: inc/admin-tabs/multisite.php:31
 msgid "Enable Site ID column in sites list"
 msgstr ""
 
-#: inc/admin-tabs/multisite.php:28
+#: inc/admin-tabs/multisite.php:41
 msgid "Enable Site Name column in sites list"
 msgstr ""
 
-#: inc/admin-tabs/multisite.php:43
+#: inc/admin-tabs/multisite.php:50
 msgid "Redirect to site details after new site creation."
 msgstr ""
 
-#: inc/admin-tabs/multisite.php:44
+#: inc/admin-tabs/multisite.php:51
 msgid "The default behavior is to stay in the same screen"
 msgstr ""
 
-#: inc/admin-tabs/multisite.php:51
+#: inc/admin-tabs/multisite.php:61
 msgid "Sort sites by name and domain."
 msgstr ""
 
-#: inc/admin-tabs/multisite.php:52
+#: inc/admin-tabs/multisite.php:62
 msgid ""
 "Sorted by name in the Admin Bar, and by domain in Sites of User. This is a "
 "hook into get_blogs_of_user, and I'm not sure if it has adverse effects "
 "elsewhere. Feedback is welcome, use the WPSE post."
 msgstr ""
 
-#: inc/admin-tabs/multisite.php:71
+#: inc/admin-tabs/multisite.php:89
 msgid "PLUGINS"
 msgstr ""
 
-#: inc/admin-tabs/multisite.php:71
+#: inc/admin-tabs/multisite.php:90
 msgid ""
 "all setting applied in the Plugins section are also applied in the network "
 "screen."
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:13
+#: inc/admin-tabs/plugins.php:16
 msgid "Block plugins upgrade check"
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:14
+#: inc/admin-tabs/plugins.php:17
 msgid "Yeah, I know..."
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:20
+#: inc/admin-tabs/plugins.php:26
 msgid "Block inactive plugins upgrade check"
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:21
+#: inc/admin-tabs/plugins.php:27
 msgid ""
 "You'd probably be better deleting them alltogether... Also, this one doesn't "
 "work for multisite."
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:28
+#: inc/admin-tabs/plugins.php:36
 msgid "Remove plugins quick edit links (activate/deactivate, edit, settings)"
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:29
+#: inc/admin-tabs/plugins.php:37
 msgid ""
 "You will have to work only with batch actions, but you can achieve the "
-"smallest plugin listing, "
+"smallest plugin listing,"
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:35
+#: inc/admin-tabs/plugins.php:45
 msgid "Remove descriptions but leave Version and Author information."
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:43
+#: inc/admin-tabs/plugins.php:55
 msgid "Remove extra plugins notices (normally in yellow)"
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:50
+#: inc/admin-tabs/plugins.php:64
 msgid "Adds information about last update of the plugins"
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:51
+#: inc/admin-tabs/plugins.php:65
 #, php-format
 msgid ""
 "Incorporation of the plugin: %s. After enabling this, the first load of the "
@@ -1261,163 +1304,149 @@ msgid ""
 "first load, the information is cached."
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:58
+#: inc/admin-tabs/plugins.php:74
 msgid "Inactive Plugins background color"
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:64
+#: inc/admin-tabs/plugins.php:83
 msgid ""
 "Enter a list of keywords separated by comma, no spaces. Normally, you'll use "
 "the plugin authors."
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:70
+#: inc/admin-tabs/plugins.php:91
 msgid "Your Plugins background color ;o)"
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:76
+#: inc/admin-tabs/plugins.php:99
 msgid "Colorize specific plugins."
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:77
+#: inc/admin-tabs/plugins.php:100
 msgid "Use to display some plugins (yours!) with other color."
 msgstr ""
 
-#: inc/admin-tabs/plugins.php:85
-msgid "AdvancedCustomFields: hide \"Options\" from non-administrators"
-msgstr ""
-
-#: inc/admin-tabs/plugins.php:96
-msgid "If you want to show only for one user, select bellow."
-msgstr ""
-
-#: inc/admin-tabs/plugins.php:97
-msgid ""
-"If none is selected, the administrator rule applies. Otherwise, this "
-"overrides the previous."
-msgstr ""
-
-#: inc/admin-tabs/postediting.php:13
+#: inc/admin-tabs/postediting.php:16
 msgid "Pages: enable Excerpt"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:20
+#: inc/admin-tabs/postediting.php:26
 msgid "Posts-Pages: number of revisions to maintain"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:21
+#: inc/admin-tabs/postediting.php:27
 msgid "-1 (unlimited) | 0 (none) | 1 or more (custom)"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:28
+#: inc/admin-tabs/postediting.php:37
 msgid "Posts-Pages: auto-save interval <em>in minutes</em>"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:35
+#: inc/admin-tabs/postediting.php:48
 msgid "MOVE METABOXES"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:38
+#: inc/admin-tabs/postediting.php:56
 msgid "Posts-Pages: move the Author metabox into the Publish metabox"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:45
+#: inc/admin-tabs/postediting.php:66
 msgid "Posts-Pages: move the Discussion metabox into the Publish metabox"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:52
+#: inc/admin-tabs/postediting.php:76
 msgid "HIDE FROM PUBLISH METABOX"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:52
+#: inc/admin-tabs/postediting.php:77
 msgid ""
 "also easy with Adminimize, but as I use this normally, it's faster by here."
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:55
+#: inc/admin-tabs/postediting.php:85
 msgid "Status"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:56
+#: inc/admin-tabs/postediting.php:86
 msgid "Visibility"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:57
+#: inc/admin-tabs/postediting.php:87
 msgid "Published On"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:60
+#: inc/admin-tabs/postediting.php:90
 msgid "Affects ALL post types. Select items to hide:"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:69
+#: inc/admin-tabs/postediting.php:101
 msgid "REMOVE METABOXES<br />"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:69
+#: inc/admin-tabs/postediting.php:102
 msgid ""
 "<p class=\"desc-field\"><i>although Adminimize can handle this filtering by "
 "roles, it only hides the meta box and it doen't removes it from the Screen "
 "Options</i></p>"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:77
-msgid "AUTHOR "
+#: inc/admin-tabs/postediting.php:116
+msgid "AUTHOR"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:90
+#: inc/admin-tabs/postediting.php:133
 msgid "DISCUSSION"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:103
+#: inc/admin-tabs/postediting.php:150
 msgid "COMMENTS"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:116
+#: inc/admin-tabs/postediting.php:167
 msgid "CUSTOM FIELDS"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:129
+#: inc/admin-tabs/postediting.php:184
 msgid "FEATURED IMAGE"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:142
+#: inc/admin-tabs/postediting.php:201
 msgid "REVISIONS"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:155
+#: inc/admin-tabs/postediting.php:218
 msgid "SLUG"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:162
+#: inc/admin-tabs/postediting.php:229
 msgid "PAGES ONLY"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:165
+#: inc/admin-tabs/postediting.php:237
 msgid "ATTRIBUTES"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:171
+#: inc/admin-tabs/postediting.php:244
 msgid "POSTS ONLY"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:174
+#: inc/admin-tabs/postediting.php:250
 msgid "FORMAT"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:181
+#: inc/admin-tabs/postediting.php:260
 msgid "CATEGORY"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:188
+#: inc/admin-tabs/postediting.php:270
 msgid "EXCERPT"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:195
+#: inc/admin-tabs/postediting.php:280
 msgid "TAGS"
 msgstr ""
 
-#: inc/admin-tabs/postediting.php:202
+#: inc/admin-tabs/postediting.php:290
 msgid "TRACKBACKS"
 msgstr ""
 
@@ -1425,11 +1454,11 @@ msgstr ""
 msgid "Post, Page and Custom Post Types listing"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:14
+#: inc/admin-tabs/postlisting.php:16
 msgid "Posts: persistent Post listing view"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:16
+#: inc/admin-tabs/postlisting.php:18
 #, php-format
 msgid ""
 "If you change the viewing mode (list or excerpt view), it doesn't stick. "
@@ -1437,86 +1466,90 @@ msgid ""
 "via: %s"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:25
+#: inc/admin-tabs/postlisting.php:31
 msgid "Pages: enable filtering by Template"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:34
+#: inc/admin-tabs/postlisting.php:44
 msgid "All types: enable Duplicate and Delete Revisions"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:35
+#: inc/admin-tabs/postlisting.php:45
 msgid "Based on GD Press Tools"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:40
+#: inc/admin-tabs/postlisting.php:51
+msgid "CUSTOM COLUMNS"
+msgstr ""
+
+#: inc/admin-tabs/postlisting.php:57
 msgid "All types:: add ID column"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:47
+#: inc/admin-tabs/postlisting.php:67
 msgid "All types: width of the Title column"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:48
+#: inc/admin-tabs/postlisting.php:68
 msgid ""
 "Sometimes the Title column gets shrinked by other columns, you may change "
 "this here. Use px or %, i.e. 200px, 50%"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:54
+#: inc/admin-tabs/postlisting.php:77
 msgid "Proportion of the thumbnails"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:55
+#: inc/admin-tabs/postlisting.php:78
 msgid ""
 "Used for width and height. The scale is proportional, this value is used for "
 "the bigger side."
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:61
+#: inc/admin-tabs/postlisting.php:87
 msgid "Width of the column"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:62
+#: inc/admin-tabs/postlisting.php:88
 msgid ""
 "Depending on the proportion you may need this. Use px or %, i.e. 200px, 50%"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:68
+#: inc/admin-tabs/postlisting.php:97
 msgid "All types: add Thumbnail column"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:70
+#: inc/admin-tabs/postlisting.php:99
 #, php-format
 msgid ""
 "Shows the featured image or, if not set, the first attached.<br />Tip via: %s"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:80
+#: inc/admin-tabs/postlisting.php:112
 msgid "CUSTOM COLORS FOR DIFFENT TYPES OF CONTENT"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:83
+#: inc/admin-tabs/postlisting.php:120
 msgid "Posts-Pages Draft color"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:88
+#: inc/admin-tabs/postlisting.php:129
 msgid "Posts-Pages Pending color"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:93
+#: inc/admin-tabs/postlisting.php:138
 msgid "Posts-Pages Future color"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:98
+#: inc/admin-tabs/postlisting.php:147
 msgid "Posts-Pages Private color"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:103
+#: inc/admin-tabs/postlisting.php:156
 msgid "Posts-Pages Password Protected color"
 msgstr ""
 
-#: inc/admin-tabs/postlisting.php:108
+#: inc/admin-tabs/postlisting.php:165
 msgid "Posts-Pages Other Author's color"
 msgstr ""
 
@@ -1524,99 +1557,99 @@ msgstr ""
 msgid "User profile"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:13
+#: inc/admin-tabs/profile.php:15
 msgid "Remove All Titles"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:14
+#: inc/admin-tabs/profile.php:16
 msgid ""
 "Removes the titles: \"Personal Options\", \"Name\", \"Contact Info\" and "
 "\"About Yourself\""
 msgstr ""
 
-#: inc/admin-tabs/profile.php:20
+#: inc/admin-tabs/profile.php:24
 msgid "Remove All Descriptions"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:27
+#: inc/admin-tabs/profile.php:33
 msgid "Remove Visual Editor, Admin Color Scheme and Keyboard Shortcuts"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:28
+#: inc/admin-tabs/profile.php:34
 msgid "My guess is that or you want them all, or you don't want them at all :)"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:35
+#: inc/admin-tabs/profile.php:43
 msgid "Completely hide the Personal Options block"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:42
+#: inc/admin-tabs/profile.php:52
 msgid "Remove Display Name"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:49
+#: inc/admin-tabs/profile.php:61
 msgid "Remove Nickname"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:56
+#: inc/admin-tabs/profile.php:70
 msgid "Remove Website"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:63
+#: inc/admin-tabs/profile.php:80
 msgid ""
 "Change <strong>Aim</strong>-<strong>Yim</strong>-<strong>Jabber</strong> for "
 "<strong>Twitter</strong>-<strong>Facebook</strong>-<strong>LinkedIn</strong>"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:64
+#: inc/admin-tabs/profile.php:81
 msgid "You have to choose between this one or the next one."
 msgstr ""
 
-#: inc/admin-tabs/profile.php:70
+#: inc/admin-tabs/profile.php:90
 msgid "Remove Aim/Yim/Jabber"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:71
+#: inc/admin-tabs/profile.php:91
 msgid "Read above."
 msgstr ""
 
-#: inc/admin-tabs/profile.php:77
+#: inc/admin-tabs/profile.php:100
 msgid "Hide the About Yourself title and Biographical Info box"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:86
+#: inc/admin-tabs/profile.php:112
 #, php-format
 msgid ""
 "Add your custom css to further stylize the Profile page.<br />Test "
 "<code>#wpwrap{}</code> with %s"
 msgstr ""
 
-#: inc/admin-tabs/profile.php:87
+#: inc/admin-tabs/profile.php:113
 msgid "some gradients"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:15
+#: inc/admin-tabs/shortcodes.php:18
 msgid "Enable shortcodes everywhere"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:16
+#: inc/admin-tabs/shortcodes.php:19
 msgid ""
 "In the text widget, excerpts, content and category/tag/taxonomy descriptions"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:22
+#: inc/admin-tabs/shortcodes.php:26
 msgid "Usage:"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:26
+#: inc/admin-tabs/shortcodes.php:30
 msgid "TITLE-OVER"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:32
+#: inc/admin-tabs/shortcodes.php:36
 msgid "WATCH NOW"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:34
+#: inc/admin-tabs/shortcodes.php:38
 msgid ""
 "The \"color\" attribute is for the title.<br />\n"
 "            This is the default backend style, for adpating it in your "
@@ -1624,19 +1657,19 @@ msgid ""
 "            use the class \"mtt-poptube\" for the elements"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:38
+#: inc/admin-tabs/shortcodes.php:42
 msgid "and"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:41
+#: inc/admin-tabs/shortcodes.php:45
 msgid "Enable YouTube shortcode"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:48
+#: inc/admin-tabs/shortcodes.php:55
 msgid "Enable SoundCloud shortcode"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:49
+#: inc/admin-tabs/shortcodes.php:56
 msgid ""
 "Soundcloud offers a shortcode for use in WordPress.COM. This will enable the "
 "use of that shortcode.<br />Usage: in SoundCloud, select the button "
@@ -1646,11 +1679,11 @@ msgid ""
 "target=\"_blank\">Check SoundCloud documentation</a>"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:56
+#: inc/admin-tabs/shortcodes.php:65
 msgid "Enable Google Docs Preview Document shortcode"
 msgstr ""
 
-#: inc/admin-tabs/shortcodes.php:57
+#: inc/admin-tabs/shortcodes.php:66
 msgid ""
 "Use Google Docs for preview PDF, Word, Excel docuemtns online. <a href="
 "\"http://docs.google.com/viewer?url=partners.adobe.com/public/developer/en/"
@@ -1659,147 +1692,175 @@ msgid ""
 "View Document[/gdocs]"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:13
+#: inc/admin-tabs/widgets.php:16
 msgid "RSS Widget: update timer (in minutes)"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:14
+#: inc/admin-tabs/widgets.php:18
 #, php-format
 msgid "Default is 12 hours, leave blank for not activating<br />Tip via: %s"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:21
+#: inc/admin-tabs/widgets.php:29
 msgid "New Meta widget"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:22
+#: inc/admin-tabs/widgets.php:30
 msgid "Based on the original, removes WordPress links and adds a custom link"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:27
+#: inc/admin-tabs/widgets.php:39
 msgid "REMOVE WIDGETS"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:31
+#: inc/admin-tabs/widgets.php:46
 msgid "Akismet"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:36
+#: inc/admin-tabs/widgets.php:50
 msgid "Calendar"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:37
+#: inc/admin-tabs/widgets.php:51
 msgid "Archives"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:39
+#: inc/admin-tabs/widgets.php:53
 msgid "Meta"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:40
+#: inc/admin-tabs/widgets.php:54
 msgid "Search"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:41
+#: inc/admin-tabs/widgets.php:55
 msgid "Text"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:42
+#: inc/admin-tabs/widgets.php:56
 msgid "Categories"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:43
+#: inc/admin-tabs/widgets.php:57
 msgid "Recent Posts"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:46
+#: inc/admin-tabs/widgets.php:60
 msgid "Tag Cloud"
 msgstr ""
 
-#: inc/admin-tabs/widgets.php:47
+#: inc/admin-tabs/widgets.php:61
 msgid "Custom Menu"
 msgstr ""
 
-#: inc/hooks/maintenance.php:52
+#: inc/hooks/class-revisions-duplicate.php:192
+#: inc/hooks/class-revisions-duplicate.php:193
+msgid "Duplicate"
+msgstr ""
+
+#: inc/hooks/class-revisions-duplicate.php:197
+#, php-format
+msgid "Are you sure you want to delete the REVISIONS of the post %s?"
+msgstr ""
+
+#: inc/hooks/class-revisions-duplicate.php:203
+msgid "Confirm delete of revisions?"
+msgstr ""
+
+#: inc/hooks/class-revisions-duplicate.php:205
+#: inc/hooks/class-revisions-duplicate.php:206
+msgid "Delete Revisions"
+msgstr ""
+
+#: inc/hooks/class-widget-meta-slim.php:12
+msgid "Log in/out, admin and custom link"
+msgstr ""
+
+#: inc/hooks/class-widget-meta-slim.php:14
+#: inc/hooks/class-widget-meta-slim.php:24
+msgid "Meta Slim"
+msgstr ""
+
+#: inc/hooks/class-widget-meta-slim.php:79
+msgid "Widget title:"
+msgstr ""
+
+#: inc/hooks/class-widget-meta-slim.php:85
+msgid "Title for extra link:"
+msgstr ""
+
+#: inc/hooks/class-widget-meta-slim.php:91
+msgid ""
+"URL for extra link <br><sup>(leave empty and the previous is just a simple "
+"text)</sup>:"
+msgstr ""
+
+#: inc/hooks/maintenance.php:59
 msgid " | Maintenance Mode"
 msgstr ""
 
-#: inc/hooks/media.php:294
+#: inc/hooks/maintenance.php:67
+msgid "Site in maintenance"
+msgstr ""
+
+#: inc/hooks/media.php:224
 msgid "Dimensions"
 msgstr ""
 
-#: inc/hooks/media.php:389
+#: inc/hooks/media.php:340
 msgid "Attached to"
 msgstr ""
 
-#: inc/hooks/media.php:412
+#: inc/hooks/media.php:370
 msgid "Y/m/d"
 msgstr ""
 
-#: inc/hooks/media.php:415
+#: inc/hooks/media.php:373
 msgid "Re-Attach"
 msgstr ""
 
-#: inc/hooks/media.php:422
+#: inc/hooks/media.php:380
 msgid "(Unattached)"
 msgstr ""
 
-#: inc/hooks/media.php:425
+#: inc/hooks/media.php:383
 msgid "Attach"
 msgstr ""
 
-#: inc/hooks/media.php:441
+#: inc/hooks/media.php:404
+msgid "Right click as choose Save As"
+msgstr ""
+
+#: inc/hooks/media.php:467
 msgid "Could not read image size"
 msgstr ""
 
-#: inc/hooks/media.php:480
+#: inc/hooks/media.php:552
 #, php-format
 msgid "File &#8220;%s&#8221; doesn&#8217;t exist?"
 msgstr ""
 
-#: inc/hooks/media.php:483
+#: inc/hooks/media.php:555
 msgid "The GD image library is not installed."
 msgstr ""
 
-#: inc/hooks/media.php:490
+#: inc/hooks/media.php:562
 #, php-format
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr ""
 
-#: inc/hooks/plugins.php:107
+#: inc/hooks/plugins.php:140
 msgid "Last Updated"
 msgstr ""
 
-#: inc/hooks/postlisting.php:124
+#: inc/hooks/postlisting.php:195
 msgid "Thumbnail"
 msgstr ""
 
-#: inc/hooks/postlisting.php:152
+#: inc/hooks/postlisting.php:229
 msgid "Featured"
 msgstr ""
 
-#: inc/hooks/postlisting.php:159
+#: inc/hooks/postlisting.php:235
 msgid "Attached"
-msgstr ""
-
-#: inc/hooks/widgets.php:142
-msgid "Log in/out, admin and custom link"
-msgstr ""
-
-#: inc/hooks/widgets.php:144 inc/hooks/widgets.php:154
-msgid "Meta Slim"
-msgstr ""
-
-#: inc/hooks/widgets.php:209
-msgid "Widget title:"
-msgstr ""
-
-#: inc/hooks/widgets.php:215
-msgid "Title for extra link:"
-msgstr ""
-
-#: inc/hooks/widgets.php:221
-msgid ""
-"URL for extra link <br><sup>(leave empty and the previous is just a simple "
-"text)</sup>:"
 msgstr ""
