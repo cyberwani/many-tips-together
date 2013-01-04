@@ -23,9 +23,9 @@ If you notice a missing credit, please notify it.
 ## Screenshots
 ![Plugin page](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-1.png)
 
-![Login](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-2.png)
+![Login](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-2.jpg)
 
-![Maintenance](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-3.png)
+![Maintenance](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-3.jpg)
 
 ![Posts](https://github.com/brasofilo/many-tips-together/raw/master/screenshot-4.png)
 
