@@ -7,6 +7,9 @@ This one is for testing purposes only.
 
 Version: 2.0 beta RC1
 
+Github updater control
+~Current Version:2.0.1~
+
 ## Description
 With MTT you'll be able to simplify and make deep customizations in the administrative interface.
 

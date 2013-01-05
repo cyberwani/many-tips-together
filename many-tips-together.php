@@ -238,24 +238,19 @@ if( !class_exists( 'MTT_Plugin_Init' ) ):
 
 endif;
 
-/**
- * Blocking WordPress from sending installation email notice
- *
- * Empty function
- * 
- * TODO: IS THIS WORKING???
- */
-/*$mtt_option_get = get_option( MTT_Plugin_Init::$opt_name );
-
-if( 
-    is_multisite() 
-    && !empty( $mtt_option_get['multisite_disable_new_site_email'] ) 
-    && !function_exists( 'wp_new_blog_notification' )
-)
-{
-    
-    function wp_new_blog_notification($blog_title, $blog_url, $user_id, $password)
-    { 
-        wp_die('plugged');// empty function 
-    }
-}*/
+include_once('github-updater.php');
+add_action( 'admin_init', 'mtt_github_update_checker' );
+function mtt_github_update_checker() {
+    $config = array(
+        'slug' => plugin_basename(__FILE__), 
+        'proper_folder_name' => 'many-tips-together',
+        'api_url' => 'https://api.github.com/repos/brasofilo/many-tips-together',
+        'raw_url' => 'https://raw.github.com/brasofilo/many-tips-together', 
+        'github_url' => 'https://github.com/brasofilo/many-tips-together',
+        'zip_url' => 'https://github.com/brasofilo/many-tips-together/zipball/master', 
+        'sslverify' => true, 
+        'requires' => '3.0', 
+        'tested' => '3.5', 
+);
+    new wp_github_updater($config);
+}
