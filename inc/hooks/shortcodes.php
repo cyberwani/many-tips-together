@@ -74,7 +74,7 @@ if ( !class_exists( 'MTT_Hook_Shortcodes' ) ):
         public function youtube( $atts, $content = null )
         {
             $atts = array_map('html_entity_decode', $atts);
-            loga($atts);
+//            loga($atts);
             
             //$teste = get_page_by_path($atts['id'],'OBJECT','post');
             $img   = "http://i3.ytimg.com/vi/{$atts['id']}/default.jpg";

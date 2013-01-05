@@ -147,7 +147,7 @@ if( !class_exists( 'MTT_Plugin_Init' ) ):
         public function setup_options()
         {
             $mtt = get_option( self::$opt_name );
-
+//loga($mtt);
             if( !$mtt )
             {
                 $mtt = MTT_Plugin_Utils::$default_options;
@@ -244,6 +244,7 @@ function mtt_github_update_checker() {
     $config = array(
         'slug' => plugin_basename(__FILE__), 
         'proper_folder_name' => 'many-tips-together',
+        'description' => 'version 2, release candidate 1',
         'api_url' => 'https://api.github.com/repos/brasofilo/many-tips-together',
         'raw_url' => 'https://raw.github.com/brasofilo/many-tips-together', 
         'github_url' => 'https://github.com/brasofilo/many-tips-together',

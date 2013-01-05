@@ -110,7 +110,8 @@ class wp_github_updater
 			,'last_updated'       => $this->get_date()
 		) );
 		// Merge custom description w GitHub description
-		// Allows to add custom tabs		
+		// Allows to add custom tabs
+//                loga($this->config);
 		$this->config['description'] = wp_parse_args(
 			 $this->config['description']
 			,array( 
