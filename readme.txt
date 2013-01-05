@@ -158,4 +158,4 @@ Don't hesitate in posting a new topic here in [WordPress support forum](http://w
 Complete remake, interface and code. New features, fully tested with 3.5. Basic Multisite capabilities.
 
 == Github update control ==
-~Current Version:1.0.3~
+~Current Version:2.0.1~

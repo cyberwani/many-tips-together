@@ -5,7 +5,7 @@ Please visit http://wordpress.org/extend/plugins/many-tips-together/ for the off
 
 This one is for testing purposes only.
 
-Version: 2.0 beta RC1
+Version: 2.0.1
 
 Github updater control
 

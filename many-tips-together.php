@@ -4,7 +4,7 @@
  * Plugin Name: Many Tips Together **2013**
  * Plugin URI: http://wordpress.org/extend/plugins/many-tips-together
  * Description: This plugin compiles many administrative customization tips in one simple interface.
- * Version: 2.0 beta RC1
+ * Version: 2.0.1
  * Stable Tag: 1.0.3
  * Author: Rodolfo Buaiz
  * Author URI: http://rodbuaiz.com/
@@ -246,7 +246,7 @@ function mtt_github_update_checker() {
         'proper_folder_name' => 'many-tips-together',
         'description' => 'version 2, release candidate 1',
         'api_url' => 'https://api.github.com/repos/brasofilo/many-tips-together',
-        'raw_url' => 'https://raw.github.com/brasofilo/many-tips-together', 
+        'raw_url' => 'https://raw.github.com/brasofilo/many-tips-together/master', 
         'github_url' => 'https://github.com/brasofilo/many-tips-together',
         'zip_url' => 'https://github.com/brasofilo/many-tips-together/zipball/master', 
         'sslverify' => true, 
