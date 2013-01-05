@@ -111,7 +111,6 @@ class wp_github_updater
 		) );
 		// Merge custom description w GitHub description
 		// Allows to add custom tabs
-//                loga($this->config);
 		$this->config['description'] = wp_parse_args(
 			 $this->config['description']
 			,array( 
@@ -265,7 +264,7 @@ class wp_github_updater
 			return $version;
 
 		$data    = $this->get_remote_plugin_header();
-		$version = (int) $data['Version'];
+		$version = (string) $data['Version'];
 		set_site_transient( 
 			 "{$this->config['slug']}_new_version"
 			 // Versionnr. is the last update date on the GitHub repo
