@@ -1,4 +1,6 @@
 /**
+ * Disable hoverintent
+ * 
  * Author: @t3los
  * Author URI: http://wordpress.stackexchange.com/a/36360/12615
  */

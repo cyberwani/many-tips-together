@@ -63,7 +63,7 @@ if( !class_exists( 'MTT_Plugin_Meta_Box' ) ):
 
 
                     <div class="submit update-button mtt-update">
-                        <button class="button-primary" onclick="document.mttform.submit();return false" title="<?php _e( 'Update settings', 'mtt' ) ?>"/><?php _e( 'Update settings', 'mtt' ) ?></button>
+                        <button class="button-primary" id="mtt-submit" title="<?php _e( 'Update settings', 'mtt' ) ?>"/><?php _e( 'Update settings', 'mtt' ) ?></button>
                     </div>
 
                     <br style="clear:both"/>
